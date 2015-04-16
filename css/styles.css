@@ -1,0 +1,271 @@
+/* ----------------------
+	Guilherme Kürten
+	06/01/2015
+
+-----------------------*/
+
+
+/* Geral */
+
+  *, *:before, *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+embed {
+   max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 p{
+
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+/* Tipografia */
+
+h1.lead {
+
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 5.163em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	margin: 2.63em auto 2.63em;
+	line-height: 1.42em;
+}
+
+
+h2.subtitulo {
+
+	font-family:'Julius Sans One', serif;
+	font-size: 2.255em;
+	font-weight: 400;
+	color: #ffffff;
+    text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	position: relative;
+	display: block;
+	line-height: 0.5em;
+	margin: -5.5em auto 5em;
+	opacity: .5;
+
+}
+
+h2 {
+
+	font-family:'Julius Sans One', serif;
+	font-size: 4em;
+	font-weight: 400;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	position: relative;
+	display: block;
+	line-height: 0.5em;
+	display: block;
+	margin: 1.5em auto 1em;
+
+}
+
+p {
+
+	font-family: 'Crimson text', serif;
+	font-size: 2.3em;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #323232;
+	text-align: justify;
+	margin: 2em auto;
+	display: block;
+
+}
+
+p span	{
+
+	display: block;
+	margin: 1em;
+}
+
+p a {
+
+	text-decoration: none;
+	color: #0D47A1;
+}
+
+	p a:hover {
+
+		color: #3b5998;
+		text-decoration: underline;
+
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+			transition: all 0.3s;
+
+	}
+
+	p a:visited {
+
+		color: #4A148C;
+	}
+
+p em {
+
+
+	color: #646464;
+}
+/* Fim tipografia */
+
+body {
+
+	height: 100%;
+	margin: 0px;
+	font-size: 62.5%;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+section.titulo {
+
+	background: url(../images/axelantas-bergkvist.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	width: 100%;
+	max-width: 1920px;
+	display: table;
+	float: left;
+	margin: 0;
+
+}
+
+section {
+
+
+	display: block;
+	float: left;
+	margin: 0;
+
+}
+
+.container {
+   max-width: 38.02083333333333%; /* 730px */
+   min-width: 725px;
+   margin: 0 auto;
+   height: 100%;
+   display: block;
+
+}
+
+.topo {
+max-width: 70%; /* ? */
+min-width: 725px;
+margin: 0 auto;
+height: 100%;
+display: block;
+
+}
+
+
+
+
+/* HEADER */
+
+nav {
+
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	background-color: #000;
+	
+}
+
+
+
+nav ul {
+
+	display: block;
+	list-style: none;
+	padding: 0;
+	float: right;
+
+}
+
+nav ul li{
+
+	
+	display: inline-block;
+}
+
+	nav ul li:last-child {
+
+		margin: 0 3em 0 0;
+	}
+
+
+nav ul li a {
+
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #fff;
+	opacity: 0.35;
+	padding: 0.848em 2em;
+}
+
+
+	nav ul li a:hover {
+
+	-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+			transition: all 0.3s;
+	opacity: 1;
+
+}
+
+	.actived {
+
+
+		-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+				transition: all 0.3s;
+
+		opacity: 1;
+}
+
+/* fim header */
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+   content: " ";
+   display: table;
+}
+ 
+.clearfix:after {
+   clear: both;
+}
+ 
+.clearfix {
+   *zoom: 1;
+}
+
+
+
