@@ -105,7 +105,7 @@ p a {
 	p a:hover {
 
 		color: #3b5998;
-		text-decoration: underline;
+		border-bottom: 1px solid;
 
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
