@@ -218,15 +218,14 @@ nav ul li{
 		margin: 0 0 0 1em;
 		padding: 0 0 0 3.5em;
 		text-align: left;
-		max-width: 10%;
 		position: relative;
 		display: block;
 	}
 
-		nav	ul li a.topo {
+		nav	ul li a.bicicleta {
 
 		background: url("../images/bike-icon.png") left no-repeat;
-		padding: 1.3em 4.2em;
+		padding: 1.3em 3em;
 		margin-left: -2em; 
 
 		}
