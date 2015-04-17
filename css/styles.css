@@ -123,6 +123,59 @@ p em {
 
 	color: #646464;
 }
+
+.ps {
+
+	color: #808080;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	display: block;
+
+}
+
+
+
+.citacao {
+
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color: #646464;
+	margin: 0 2em;
+	display: block;
+}
+
+.subtitulo {
+
+	font-size: 1.2em;
+	color: #E91E63;
+}
+
+
+
+.oculta  {
+
+	color: #fff;
+
+}
+
+	.oculta:hover {
+
+		color: #323232;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+			transition: all 0.3s;
+	}
+
+/* p.oculta strong {
+
+	color: #E91E63;
+	font-size: 1.2em;
+}
+
+*/
+
+
+
 /* Fim tipografia */
 
 body {
@@ -230,11 +283,6 @@ nav ul li{
 
 		}
 
-
-	nav ul li:last-child {
-
-		margin: 0 3em 0 0;
-	}
 
 
 nav ul li a {
