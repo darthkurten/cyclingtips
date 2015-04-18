@@ -32,15 +32,13 @@ h1, h2, h3, h4, h5 p{
 
 h1.lead {
 
-	font-family: 'Julius Sans One', sans-serif;
-	font-size: 5.163em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4.8279em;
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #ffffff;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
 	margin: 2.63em auto 2.63em;
-	line-height: 1.42em;
+	line-height: 1.32em;
 }
 
 
@@ -50,12 +48,10 @@ h2.subtitulo {
 	font-size: 2.255em;
 	font-weight: 400;
 	color: #ffffff;
-    text-align: center;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
+    text-align: left;
 	position: relative;
 	display: block;
-	line-height: 0.5em;
+	line-height: 1.3em;
 	margin: -5.5em auto 5em;
 	opacity: .5;
 
@@ -63,19 +59,50 @@ h2.subtitulo {
 
 h2 {
 
-	font-family:'Julius Sans One', serif;
-	font-size: 4em;
-	font-weight: 400;
+	font-family:'Montserrat', serif;
+	font-size: 4.5em;
+	font-weight: 600;
 	color: #000;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
 	position: relative;
+	line-height: 1.1em;
 	display: block;
-	line-height: 0.5em;
-	display: block;
-	margin: 1.5em auto 1em;
+	margin: 1.989em auto 1em;
 
 }
+
+	h2:first-child {
+
+		margin: 1em auto 1em;
+
+	}
+
+h3 {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.255em;
+	font-weight: 600;
+	margin: 2em 0 -1.799em 1.3em;
+
+}
+
+h3 a {
+
+	text-decoration: none;
+	color: #0D47A1;
+
+
+}
+
+	h3 a:hover {
+
+		text-decoration: underline;
+		color: #E91E63;
+		
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+
+	}
 
 p {
 
@@ -85,8 +112,9 @@ p {
 	line-height: 1.7em;
 	color: #323232;
 	text-align: justify;
-	margin: 2em auto;
+	margin: 2em 0 2em 1.3em;
 	display: block;
+	background-color: 
 
 }
 
@@ -104,7 +132,7 @@ p a {
 
 	p a:hover {
 
-		color: #3b5998;
+		color: #E91E63;
 		border-bottom: 1px solid;
 
 		-webkit-transition: all 0.3s;
@@ -293,7 +321,7 @@ nav ul li a {
 	font-size: 1.3em;
 	font-weight: 400;
 	color: #fff;
-	opacity: 0.35;
+	opacity: 0.6;
 	padding: 0.848em 2em;
 }
 
@@ -316,6 +344,41 @@ nav ul li a {
 
 		opacity: 1;
 }
+
+
+a.indice {
+
+	text-decoration: none;
+	display: block;
+	padding: 1.5em 0;
+	color: #0D47A1;
+}
+
+	a.indice strong:hover {
+
+	color: #E91E63;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+	a.indice p {
+
+		line-height: 1.3em;
+		margin: -1em 0 2em 1.3em;
+		color: #b5b5b5;
+	}
+
+	a.indice strong {
+
+		font-family: 'Montserrat', sans-serif;
+		color: #000;
+		display: block;
+
+	}
+
 
 /* fim header */
 
