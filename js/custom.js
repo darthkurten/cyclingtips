@@ -10,8 +10,9 @@ function onScroll(event){
         var currLink = $(this);
         var href = currLink.attr("href");
         var refElement = $(href);
-        if (refElement.position().top <= (scrollPos) &&
-            refElement.position().top + refElement.height() > scrollPos) {
+        if (refElement.offset().top <= (scrollPos + 110) &&
+            refElement.offset().top + refElement.height() > (scrollPos+110)) {
+            console.log(href);
             $('nav ul.nav li a').removeClass("actived");
             currLink.addClass("actived");
         }
