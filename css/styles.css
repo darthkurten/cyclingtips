@@ -186,13 +186,13 @@ p em {
     transition: all 0.3s;
 }
 
-/* p.oculta strong {
+hr {
 
-	color: #E91E63;
-	font-size: 1.2em;
+    width: 10%;
+    display: block;
+    display: inline-block;
 }
 
-*/
 
 /* Fim tipografia */
 
