@@ -103,12 +103,14 @@ h3 a:hover {
 
 blockquote {
 
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 4em;
+    font-family: 'Crimson text', serif;
+    font-size: 3em;
     line-height: 1.3em;
+    padding: 1em;
     text-align: justify;
     margin: 0;
     width: 103.9%;
+    border: solid 3pt #000;
 }
 
 /* paragrafo */
