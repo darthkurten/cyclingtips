@@ -101,9 +101,21 @@ h3 a:hover {
 
 }
 
+blockquote {
+
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4em;
+    line-height: 1.3em;
+    text-align: justify;
+    margin: 0;
+    width: 103.9%;
+}
+
+/* paragrafo */
+
 p {
 
-    font-family: 'Crimson text', serif;
+    font-family: 'Crimson text', sans-serif;
     font-size: 2.3em;
     font-weight: 400;
     line-height: 1.7em;
@@ -147,6 +159,27 @@ p em {
 
     color: #646464;
 }
+
+
+
+/* fim parágrafo */
+
+/* imagem e legenda */
+
+.legenda {
+
+    font-size: 2em;
+    margin: 0 1.6em -0.9em 1.6em; 
+    color: #646464;
+}
+
+.container img {
+
+    padding: 0 0 0 3em;
+    margin: -1em 0 0;    
+}
+
+/* fim imagem e legenda */
 
 .ps {
 
@@ -324,7 +357,7 @@ a.indice {
 
     text-decoration: none;
     display: block;
-    padding: 1.5em 0;
+    padding: 1.5em 0 0;
     color: #0D47A1;
 }
 
@@ -341,7 +374,7 @@ a.indice strong:hover {
 a.indice p {
 
     line-height: 1.3em;
-    margin: -1em 0 2em 1.3em;
+    margin: -1em 0 2em -0.4em;
     color: #b5b5b5;
 }
 
@@ -351,6 +384,29 @@ a.indice strong {
     color: #000;
     display: block;
 
+}
+
+#rodape {
+
+
+    background-color: #000;
+}
+
+#rodape p {
+
+    color: #777;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+#rodape a {
+
+    color: #4DD0E1;
+}
+
+#rodape a:visited {
+
+    color: #00838F;
 }
 
 /* fim header */
