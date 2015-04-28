@@ -12,6 +12,7 @@
     box-sizing: border-box;
 }
 
+
 img,
 picture,
 video,
@@ -104,13 +105,14 @@ h3 a:hover {
 blockquote {
 
     font-family: 'Crimson text', serif;
-    font-size: 3em;
-    line-height: 1.3em;
-    padding: 1em;
+    font-size: 2.6em;
+    line-height: 1.4em;
+    padding: 2em;
     text-align: justify;
     margin: 0;
     width: 103.9%;
-    border: solid 3pt #000;
+    color: #242424;
+    border: solid 3pt #E7E7E7;
 }
 
 /* paragrafo */
@@ -171,15 +173,24 @@ p em {
 .legenda {
 
     font-size: 2em;
-    margin: 0 1.6em -0.9em 1.6em; 
+    line-height: 1.2em;
+    text-align: left;
+    margin: 0 1.6em -0.9em 0em; 
     color: #646464;
 }
 
-.container img {
+.img {
 
-    padding: 0 0 0 3em;
+   /* padding: 0 0 0 3em; */
     margin: -1em 0 0;    
 }
+
+.imgesquerda {
+
+
+}
+
+
 
 /* fim imagem e legenda */
 
@@ -271,6 +282,42 @@ section {
     display: block;
 
 }
+
+/* inicio cinza */
+
+/*
+
+.cinza {
+
+    background: linear-gradient(270deg, #2ae1b1, #04b8ee);
+    background-size: 400% 400%;
+    padding-top: 1em; 
+}
+
+    .cinza p {
+
+        color: #142B49;
+    }
+
+    .cinza h2 {
+
+        color: #01334D;
+    }
+
+    .cinza  a {
+
+        color: #001E4C;
+        text-decoration: underline;
+    }
+
+    .cinza em {
+
+        color:#0F619D;
+    }
+
+*/
+
+/* fim cinza */
 
 .topo {
     max-width: 70%; /* ? */
