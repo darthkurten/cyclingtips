@@ -13,6 +13,7 @@
 }
 .fa {
   display: inline-block;
+  color: #E91E63;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
