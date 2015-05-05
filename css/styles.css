@@ -100,7 +100,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.255em;
     font-weight: 600;
-    margin: 2em 0 -1.3em 1.3em;
+    margin: 2em 0 -1.3em 1.1em;
 
 }
 
@@ -302,6 +302,11 @@ section {
 
 }
 
+    .disqus {
+
+        margin-bottom: 2.5em;
+    }
+
 /* inicio cinza */
 
 /*
@@ -376,19 +381,16 @@ nav ul li {
 
 nav a.bicicleta {
     display: block;
-    width: 50px;
-    height: 30px;
+    width: 5em;
+    height: 3em;
     background: url("../images/bike-icon.png") left no-repeat;
     padding: 1.3em 3em;
-    margin-left: -2em;
     float: left;
-    margin: 0 0 0 1em;
-    padding: 0 0 0 3.5em;
     text-align: left;
     position: relative;
     display: block;
-    margin-top: 10px;
-    margin-left: 22px;
+    margin-top: 1em;
+    margin-left: 2.2em;
 }
 
 nav ul li a {
@@ -495,3 +497,53 @@ a.indice strong {
 
 
 
+/* 1200x */
+
+@media only screen and (max-width: 1200px) {
+
+    nav ul li a {
+
+        padding: 0.848em 1.5em;
+    }
+
+    nav a.bicicleta {
+
+        margin-left: 1.5em;
+    }
+
+    h1.lead {
+
+        font-size: 4.827em;
+    }
+
+    h2.subtitulo {
+
+        font-size: 1.9em;
+    }
+
+}
+
+/* 768x */
+
+@media only screen and (max-width: 1000px) {
+
+    nav ul li a {
+
+        padding: 0.848em 0.8em;
+        font-size: 1.2em;
+    }
+
+    nav a.bicicleta {
+
+          background: url("../images/bike-icon_768.png") left no-repeat;
+          margin-left: 1.1em;
+          width: 3.6em;
+          padding-right:1em; 
+    }
+
+    p {
+
+        margin: 2em 1em 2em 1.3em;
+    }
+
+}
