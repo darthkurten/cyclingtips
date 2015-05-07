@@ -12,6 +12,16 @@
     box-sizing: border-box;
 }
 
+body {
+
+    height: 100%;
+    margin: 0px;
+    font-size: 62.5%;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
 
 img,
 picture,
@@ -237,15 +247,15 @@ p em {
     color: #E91E63;
 }
 
-.oculta {
+.shade {
 
-    color: #fff;
+    color: #c5c5c5;
 
 }
 
-.oculta:hover {
+.shade:hover {
 
-    color: #323232;
+    color: #000;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -261,15 +271,6 @@ hr {
 
 /* Fim tipografia */
 
-body {
-
-    height: 100%;
-    margin: 0px;
-    font-size: 62.5%;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-}
 
 section.titulo {
 
@@ -306,6 +307,88 @@ section {
 
         margin-bottom: 2.5em;
     }
+
+    .newsletter {
+
+        background: #E91E63;
+        width: 100%;
+    }
+
+    .newsletter input {
+
+        height: 3em;
+        margin-bottom: 3em; 
+
+    }
+
+        .newsletter input[type=email] {
+
+        margin: 0 0 2em 0em;
+        width: 30.7em;
+        font-family: "Open Sans", sans-serif;
+        color: #c4c4c4;
+        border: none; 
+        font-size: 1.5em;
+        padding: 1.59em 1.59em 1.59em 1em;
+
+
+    }
+
+        .newsletter input[type=email]:active {
+
+        border: solid 1pt #880E4F;
+
+
+    }
+
+    .newsletter input[type=submit] {
+
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        padding: 0 1em;
+
+    }
+
+         .newsletter input[type=submit]:hover {
+
+            color: #000;
+            background-color: #fff;
+            cursor: pointer;
+            
+        }
+
+        .newsletter input[type=submit]:active {
+
+            color: #fff;
+            background-color: #880e4f;
+            
+        }
+
+
+
+        .newsletter p {
+
+            color: #880E4F;
+            font-size: 1.6em;
+            margin: 0em 0 1em 0em
+        }
+
+        .newsletter h3  {
+
+            color: #880E4F;
+            font-size: 2.6em;
+            margin: 1.8em 0 0 0;
+          
+        }
+
+        .newsletter .fa {
+
+            color: #880E4F;
+        }
 
 /* inicio cinza */
 
